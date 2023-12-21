@@ -27,6 +27,7 @@ func main() {
 	pt := 23
 	var ptr = &pt
 	fmt.Println("value", ptr)
+
 }
 
 // go help and go env

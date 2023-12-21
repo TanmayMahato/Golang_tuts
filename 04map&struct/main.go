@@ -18,4 +18,17 @@ func main() {
 		fmt.Printf("For the key %v, the value given is %v \n", key, value)
 	}
 
+	//=-=-=-=-=-=-==-==-=-==-=-=--=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==--=-=-=-=-=-=-=-=-==--=-=-=
+	tanmay := Employee{"Tanmay", "tanmay@gmail.com", false, 24}
+
+	fmt.Println(tanmay)
+	fmt.Printf("tanmay details are: %v\n", tanmay)
+
+}
+
+type Employee struct {
+	Name string
+	EId  string
+	Vac  bool
+	Age  int
 }
