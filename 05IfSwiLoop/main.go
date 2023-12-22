@@ -36,4 +36,38 @@ func main() {
 		fmt.Println("3")
 	}
 
+	//==================================
+
+	d := []string{"tanmay", "mahato", "raj", "rahul"}
+
+	for i := 0; i < len(d); i++ {
+		fmt.Println(d[i])
+	}
+
+	//for array and slice
+
+	for j := range d {
+		fmt.Println(d[j])
+	}
+
+	for index, value := range d { // while using range
+		fmt.Printf("index is %v and it's value is %v \n", index, value)
+	}
+
+	for q := 0; q < 10; q++ {
+		if q == 2 {
+			continue
+		}
+		if q == 4 {
+
+		}
+
+		if q == 6 {
+			goto lv
+		}
+		fmt.Println(q)
+	}
+
+lv:
+	fmt.Println("you literally jumbper heh")
 }
